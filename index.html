@@ -1,36 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <section class="hero">
-    <img src="myphoto.jpg" alt="Manasvi Verma" class="profile-img">
-    <h2>Hi, I'm a Mathematics & Computing Student</h2>
-    <p>Welcome to my corner of the internet...</p>
-</section>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of a Mathematics and Computing Student">
-    <title>My Personal Website</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Manasvi Verma - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> <!-- Clean font -->
 </head>
 <body>
-    <nav>
-        <h1>Dev Portfolio</h1>
-    </nav>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h1 class="logo">MV</h1>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-    <section class="hero">
-        <h2>Hi, I'm a Mathematics & Computing Student</h2>
-        <p>Welcome to my corner of the internet. I solve differential equations and build apps.</p>
-    </section>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Manasvi Verma</h1>
+                <p class="tagline">Mathematics & Computing Student | Aspiring Software Engineer</p>
+                <p class="intro">As a first-year student, I'm passionate about learning Java, Python, and honing my problem-solving skills. I enjoy tackling challenges in coding and exploring how math intersects with technology to build innovative solutions.</p>
+                <!-- Add a profile image here if desired -->
+                <!-- <img src="profile.jpg" alt="Manasvi Verma" class="profile-img"> -->
+            </div>
+        </section>
 
-    <section class="content">
-        <h3>My Projects</h3>
-        <ul>
-            <li>C++ Logic Systems</li>
-            <li>Python Data Analysis</li>
-            <li>Vector Calculus Visualizations</li>
-        </ul>
-    </section>
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-grid">
+                    <div class="about-item">
+                        <h3>College</h3>
+                        <p>JIIT Noida</p>
+                    </div>
+                    <div class="about-item">
+                        <h3>Branch</h3>
+                        <p>Mathematics & Computing</p>
+                    </div>
+                    <div class="about-item">
+                        <h3>Interests</h3>
+                        <p>Coding, DSA, Web Development, AI</p>
+                    </div>
+                    <div class="about-item">
+                        <h3>Goal</h3>
+                        <p>To become a skilled software engineer and stay ahead academically</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>Java</h3>
+                        <p>Basics, OOPs</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Python</h3>
+                        <p>Scripting and automation</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Problem Solving</h3>
+                        <p>Logical thinking and algorithms</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Data Structures</h3>
+                        <p>Beginner level</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Hotel Management System</h3>
+                        <p>A C-based console application for managing hotel bookings and operations. Demonstrates core programming concepts.</p>
+                        <a href="https://github.com/yourusername/hotel-system" class="btn" target="_blank">View on GitHub</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Python Calculator</h3>
+                        <p>A simple command-line calculator built in Python, focusing on user input and basic arithmetic operations.</p>
+                        <a href="https://github.com/yourusername/python-calculator" class="btn" target="_blank">View on GitHub</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>DSA Practice Repository</h3>
+                        <p>A collection of data structures and algorithms problems solved in Java and Python for learning purposes.</p>
+                        <a href="https://github.com/yourusername/dsa-practice" class="btn" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <div class="contact-info">
+                    <p><strong>Email:</strong> <a href="mailto:manasviverma006@gmail.com">manasviverma006@gmail.com</a></p>
+                    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/manasvi-verma-981345336?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">View Profile</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Manasvi Verma. Built with passion.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-
 </html>
-
